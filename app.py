@@ -34,8 +34,8 @@ with st.sidebar:
     st.write('3. Ajuste a sensibilidade')
     st.write('4. Clique em Contar Parafusos')
     st.divider()
-    st.caption('Bootcamp de Ciencia de Dados e IA')
-    st.caption('Desafio 1 - Residencia em IA')
+    st.caption('Sistema de Visao Computacional')
+    st.caption('Contagem Automatica de Parafusos')
 
 aba1, aba2 = st.tabs(['Contagem', 'Dashboard'])
 
@@ -176,4 +176,4 @@ with aba2:
             st.rerun()
 
 st.divider()
-st.markdown('<p style="text-align:center;color:#888;font-size:0.85rem">© 2026 Daniel Tavares de França | Sistema de Contagem Automática de Parafusos</p>', unsafe_allow_html=True)
+st.markdown('<p style="text-align:center;color:#888;font-size:0.85rem">© 2026 Daniel Tavares de Franca | Sistema de Contagem Automatica de Parafusos</p>', unsafe_allow_html=True)
