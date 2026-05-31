@@ -176,4 +176,4 @@ with aba2:
             st.rerun()
 
 st.divider()
-st.markdown('<p style="text-align:center;color:#888;font-size:0.85rem">© 2026 Daniel Tavares de Franca | Automação Industrial em IA</p>', unsafe_allow_html=True)
+st.markdown('<p style="text-align:center;color:#888;font-size:0.85rem">© 2026 Daniel Tavares de França | Sistema de Contagem Automática de Parafusos</p>', unsafe_allow_html=True)
