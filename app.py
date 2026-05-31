@@ -13,7 +13,6 @@ if 'historico' not in st.session_state:
 
 st.markdown('<h1 style="text-align:center;color:#1a1a2e">Contador de Parafusos</h1>', unsafe_allow_html=True)
 st.markdown('<p style="text-align:center;color:#555">Sistema de contagem para processo de picking industrial</p>', unsafe_allow_html=True)
-st.markdown('<p style="text-align:center;color:#555">Sistema de contagem para processo de picking industrial</p>', unsafe_allow_html=True)
 st.divider()
 
 with st.sidebar:
