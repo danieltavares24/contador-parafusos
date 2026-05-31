@@ -11,9 +11,7 @@ st.set_page_config(page_title='Contador de Parafusos', page_icon='🔩', layout=
 if 'historico' not in st.session_state:
     st.session_state.historico = []
 
-col_logo = st.columns([1, 3, 1])
-with col_logo[1]:
-    st.image('logo.png', width=500)
+st.image('logo.png', use_column_width=True)
 st.divider()
 
 with st.sidebar:
